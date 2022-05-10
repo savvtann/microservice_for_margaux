@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+}
+.nav{
+    background-color: grey;
+    font-size: large;
+    align-items: right
+}
+
+.site-title{
+    color: red;
+    font-size:x-large;
+    
+    
+}
+.navitem {
+    margin: 10px;
+    float: right;
+}
+
+#bookmark{
+position: fixed;
+right: 30px;
+bottom: 80px;
+height: 30px;
+width: auto;
+font-size: 15px;
+background-color: #ff7d7d;
+color: #fff;
+cursor: pointer;
+box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#bookmark:hover, #bookmark:focus{
+    background-color:blanchedalmond;
+    color: black;
+}
+
+#b-container{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+    border-color: black;
+    border-style: outset;
+    max-width: 250px;
+}
+#parts{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+}
+
+button{
+    max-width: 150px;
+}
